@@ -1,0 +1,66 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{longtable}
+\usepackage{enumerate}
+\usepackage{makeidx} 
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{mdframed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{listings}       % via http://tex.stackexchange.com/questions/121601/automatically-wrap-the-text-in-verbatim 
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true
+}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\makeatletter
+\newcommand\href@footnote[2]{#2\footnote{\url{#1}}}
+\DeclareRobustCommand{\href}{\hyper@normalise\href@footnote}
+\makeatother
+
+\def\tightlist{}
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={STEM Sundays},    % title
+    pdfauthor={Jose Nazario},     % author
+    pdfsubject={Science Technology Engineering, and Math},   % subject of the document
+    pdfcreator={LaTeX},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={science, technology, engineering, math, education, kids}, % list of keywords
+    pdfnewwindow=true,      % links in new PDF window
+    colorlinks=false,       % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links (change box color with linkbordercolor)
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+
+\makeindex
+
+\title{STEM Sundays}
+
+\begin{document}
+    
+\maketitle
+
+\tableofcontents
+
+\Chapter{Introduction}
+
+STEM Sundays are fun!
+
+\input chapters.tex
+
+\printindex
+
+\end{document}
