@@ -28,6 +28,9 @@ def main():
                 print '\chapter{%s}' % line.strip()
                 TITLE=False
                 continue
+            if line.startswith('\section{'):
+                print line.replace('\section', '\section*')
+                continue
             print line,
 
 if __name__ == '__main__':
