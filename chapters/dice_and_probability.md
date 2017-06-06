@@ -62,8 +62,10 @@ With his attention waning, we didn't do much discussion about how this applies t
 
 # Results
 
-Overall this exercise was well-received by my older son (the younger one didn't participate). It took him a a bit to get into it, but I think we'll build on this in future exercises. 
+Overall this exercise was well-received by my older son (the younger one didn't participate). It took him a a bit to get into it, but I think we'll build on this in future exercises, like the ones from Helmerich which use odd dice. 
 
 # References
 
 David M. Lane, Online Statistics Education: An Interactive Multimedia Course of Study, Chapter 3. Available at http://onlinestatbook.com/2/probability/basic.html. 
+
+Markus Helmerich. Rolling the dice – exploring different approaches to probability with primary school students. Konrad Krainer; Nada Vondrov´a. CERME 9 - Ninth Congress of the European Society for Research in Mathematics Education, Feb 2015, Prague, Czech Republic. pp.678-684, Proceedings of the Ninth Congress of the European Society for Research in Mathematics Education. <hal-01287071>
